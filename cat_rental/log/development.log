@@ -2,3 +2,7 @@
   ↳ bin/rails:9
   [1m[35m (1967.8ms)[0m  [1m[35mCREATE DATABASE "cat_rental_test" ENCODING = 'unicode'[0m
   ↳ bin/rails:9
+  [1m[35m (667.6ms)[0m  [1m[35mCREATE DATABASE "cat_rental_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (402.1ms)[0m  [1m[35mCREATE DATABASE "cat_rental_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
