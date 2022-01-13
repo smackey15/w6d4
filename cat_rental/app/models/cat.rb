@@ -17,12 +17,8 @@ class Cat < ApplicationRecord
                         #inclusion: [COLORS]
     validates :sex, inclusion: { in: ["M", "F"],
         message: "Must enter M or F" }, presence: true #do you need inclusion AND presence?
-        
-    
 
     def age
         time_ago_in_words(birth_date)
     end
-
-
 end
