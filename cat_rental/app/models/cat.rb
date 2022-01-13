@@ -11,8 +11,7 @@ class Cat < ApplicationRecord
     validates :color, inclusion: { in: COLORS,
         message: "Not a valid color" }
     validates :sex, inclusion: { in: ["M", "F"],
-        message: "Must enter M or F" }
-
+        message: "Must enter M or F" }, presence: true #do you need inclusion AND presence?
         
 
     def age
